@@ -1,6 +1,8 @@
-const Cybrom = () => {
+const Header = () => {
   return(
-    <h1>welcome to my Cybrom we learn react</h1>
+    <>
+    <h1>this is a header part</h1>
+    </>
   )
 }
-export default Cybrom;
+export default Header;
