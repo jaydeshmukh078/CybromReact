@@ -1,16 +1,18 @@
-const App = () => {
+import { useState } from "react";
 
-const display=(e)=>{
-  let mytype=e.type;
-  let myname=e.target.name;
-  let myvalue=e.target.value;
-  alert(`name : ${myname} type : ${mytype} value : ${myvalue}`);
-}
+const App = () => {
+const [Color, setColor] = useState("red");
+
 
   return (
     <>
-       <h1>Welcome to Cybrom</h1>
-       <button name="btn1" value="mybtn1" onClick={display}>Click Here!</button> 
+       <h1 style={{color:Color}}>My Fav Color is {Color}</h1>
+       <button onClick={()=>{setColor("Green")}}>Green</button>
+       <button onClick={()=>{setColor("Blue")}}>Blue</button>
+       <button onClick={()=>{setColor("Pink")}}>Pink</button>
+       <button onClick={()=>{setColor("Orange")}}>Orange</button>
+       <button onClick={()=>{setColor("yellow")}}>yellow</button>
+       <button onClick={()=>{setColor("Black")}}>Black</button>
     </>
   )
 }
