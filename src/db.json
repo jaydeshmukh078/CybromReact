@@ -6,20 +6,6 @@
       "city": "New York",
       "rollno": 101,
       "fees": 1000
-    },
-    {
-      "id": "4562",
-      "name": "jay",
-      "city": "seoni",
-      "rollno": "101",
-      "fee": "4995959"
-    },
-    {
-      "id": "50d8",
-      "name": "ehgs",
-      "city": "hrem",
-      "rollno": "3333",
-      "fee": "444444"
     }
   ]
 }
