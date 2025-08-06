@@ -6,6 +6,7 @@ import Update from "./pages/Update";
 import Display from "./pages/Display";
 import Search from "./pages/Search";
 import Contact from "./pages/contact";
+import Myedit from "./pages/Myedit";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="update" element={<Update />} />
             <Route path="search" element={<Search />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="Myedit/:id" element={<Myedit />} />
           </Route>
         </Routes>
       </BrowserRouter>

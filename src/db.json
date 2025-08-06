@@ -2,10 +2,24 @@
   "student": [
     {
       "id": "ea96",
-      "name": "lala",
+      "name": "jay",
       "city": "lala",
-      "rollno": "2222",
-      "fees": "0000000"
+      "rollno": "5555555555",
+      "fees": "9999999999999"
+    },
+    {
+      "id": "328d",
+      "name": "farate",
+      "city": "china",
+      "rollno": "111111111",
+      "fees": "22222222222"
+    },
+    {
+      "id": "895f",
+      "name": "jay",
+      "city": "Bhopal",
+      "rollno": "101",
+      "fees": "222222"
     }
   ]
 }
