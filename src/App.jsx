@@ -90,38 +90,48 @@
 // export default App;
 
 
-import { useReducer} from "react";
+// import { useReducer} from "react";
+// const App=()=>{
+//   const myMethod=(state,action)=>{
+//     switch(action) {
+//       case "red":
+//         return state="red";
+
+//       case "green":
+//         return state="green";
+
+//       case "blue":
+//         return state="blue";
+
+//       case "yellow":
+//         return state="yellow";
+
+//       default :
+//         return state;
+//     }
+//   }
+//   const [color, dispatch]= useReducer(myMethod,"pink");
+//   return (
+//     <>
+//       <h1>My Color Change Program Using useReducer</h1>
+//       <hr />
+//       <button onClick={()=>{dispatch("red")}}> Red </button>
+//       <button onClick={()=>{dispatch("green")}}> green </button>
+//       <button onClick={()=>{dispatch("blue")}}> blue </button>
+//       <button onClick={()=>{dispatch("yellow")}}> yellow </button>
+//       <div style={{backgroundColor:color, width:300, height:300}}>
+//       </div>
+//     </>
+//   );
+// };
+// export default App;
+
 const App=()=>{
-  const myMethod=(state,action)=>{
-    switch(action) {
-      case "red":
-        return state="red";
-
-      case "green":
-        return state="green";
-
-      case "blue":
-        return state="blue";
-
-      case "yellow":
-        return state="yellow";
-
-      default :
-        return state;
-    }
-  }
-  const [color, dispatch]= useReducer(myMethod,"pink");
   return (
     <>
-      <h1>My Color Change Program Using useReducer</h1>
-      <hr />
-      <button onClick={()=>{dispatch("red")}}> Red </button>
-      <button onClick={()=>{dispatch("green")}}> green </button>
-      <button onClick={()=>{dispatch("blue")}}> blue </button>
-      <button onClick={()=>{dispatch("yellow")}}> yellow </button>
-      <div style={{backgroundColor:color, width:300, height:300}}>
-      </div>
+        <h1>Hello World !</h1>
     </>
   );
 };
+
 export default App;
